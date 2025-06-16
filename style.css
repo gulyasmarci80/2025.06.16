@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: azure;
+
+}
+
+header > nav {
+
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+header nav ul {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.címsor {
+    margin-inline: 10px;
+    margin-block: 100px;
+    background-color: yellowgreen;
+    padding: 100px;
+
+    color: blue;
+    font-size: 50px;
+}
+
+p {
+    color: orangered;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
+img {
+    border-radius: 8px;
+    border-radius: 20%;
+}
+
+#gomb {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 4px auto;
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid;
+    border-radius: 30%;
+    padding: 6px;
+    width: 125px;
+}
+
+#kep {
+    width: 100%;
+    border: lightcyan 1px solid;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+}
